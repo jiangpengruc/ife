@@ -28,17 +28,17 @@ header nav ul{
 }
 
 header nav ul li{
-    text-align: center;
-    width: 35px;
-    display: block;
-    float: left;
-    padding: 20px;
+	text-align: center;
+	width: 35px;
+	display: block;
+	float: left;
+	padding: 20px;
 }
 
 header nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
 }
 
 header nav ul li:hover{
@@ -72,9 +72,9 @@ article span{
 }
 
 article p{
-    font-size: 16px;
-    text-indent: 2em;
-    text-align: left;
+	font-size: 16px;
+	text-indent: 2em;
+	text-align: left;
 	line-height: 30px;
 }
 
@@ -101,8 +101,8 @@ article dl dd img{
 }
 
 article ol{
-    display: block;
-    line-height: 30px;
+	display: block;
+	line-height: 30px;
 	margin-left: 10px;
 }
 
@@ -113,13 +113,13 @@ article ol li{
 
 table{
 	width: 50%;
-    border-collapse: collapse;
-    text-align: center;
+	border-collapse: collapse;
+	text-align: center;
 }
 
 table tr th{
 	color: white;
-    background: #333;
+	background: #333;
 }
 
 table tr td{
