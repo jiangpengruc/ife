@@ -1,0 +1,216 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Microsoft Yahei';
+	background: #dedede;
+}
+
+header{
+	position: relative;
+	height: 80px;
+	background: #333;
+}
+
+header h1 a img{
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 60px;
+}
+
+header nav ul{
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+
+header nav ul li{
+	text-align: center;
+	width: 35px;
+	display: block;
+	float: left;
+	padding: 20px;
+}
+
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+
+header nav ul li:hover{
+	border-bottom: 2px solid red;
+	background: grey;
+	border-radius: 5px;
+}
+
+article{
+	display: block;
+	margin: 5px 120px;
+	padding: 30px;
+	background: white;
+	width: 50%;
+	float: left;
+}
+
+
+
+article h2{
+	font-size: 20px;
+	line-height: 40px;
+}
+
+article h3{
+	font-size: 14px;
+	line-height: 30px;
+}
+
+article span{
+	font-size: 12px;
+	color: grey;
+	line-height: 30px;
+}
+
+article p{
+	font-size: 16px;
+	text-indent: 2em;
+	text-align: left;
+	line-height: 30px;
+}
+
+article ul li{
+	list-style-type: none;
+}
+
+article dl dd{
+	width: 100%;
+	margin-top: 10px;
+	border: 2px solid #ccc;
+}
+
+article dl dd span{
+	display: block;
+	font-size: 16px;
+	text-align: left;
+	padding: 15px;
+	color: black;
+}
+
+article dl dd img{
+	padding: 10px;
+	width: 85%;
+}
+
+article ol{
+	display: block;
+	line-height: 30px;
+	margin-left: 10px;
+}
+
+article ol li{
+	font-size: 16px;
+	margin-left: 10px;
+}
+
+table{
+	width: 50%;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+table tr th{
+	color: white;
+	background: #333;
+}
+
+table tr td{
+	border: 2px solid #ccc;
+}
+
+table tr .buttomTable{
+	background: #ccc;
+}
+
+aside{
+	display: block;
+	position: fixed;
+	top: 75px;
+	right: 120px;
+	margin: 10px;
+	padding: 10px;
+	background: white;
+	width: 300px;
+	
+}
+
+h4{
+	border-bottom: 3px solid #ccc;
+	line-height: 30px;
+}
+
+aside form div{
+	font-size: 14px;
+	margin-left: 0px;
+	line-height:30px;
+}
+
+aside form div .tips{
+	float: left;
+	text-align: right;
+	width: 35%;
+	padding-right: 0px;
+}
+
+aside form div p{
+	margin-left:100px;
+	font-size: 14px;
+	color: #ccc;
+}
+
+aside textarea{
+	width: 45%;
+	height: 80px;
+}
+
+aside .submitButton{
+	width: 80px; 
+	height: 30px;
+	background: #128fdc;
+	color: white;
+	border-radius: 10px;
+	font-size: 14px;
+	border: none;
+	margin-left: 100px;
+}
+
+aside .submitButton:hover{
+	background: #0063dc;
+}
+
+footer{
+	bottom:0;
+	width: 100%;
+	height: 60px;
+	background: #333;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+    display: block;
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
