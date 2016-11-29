@@ -1,0 +1,145 @@
+/***整体***/
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body{
+	width:1000px;
+	margin:0 auto;
+}
+
+.clearfix:after{
+    content''; 
+    display: table;
+    clear: both; 
+}
+
+.clearfix{
+	*zoom:1;
+}
+
+/***头部***/
+
+.banner{
+	display: block;
+	height: 60px;
+	border: 2px, solid, 'black';
+
+}
+
+.bannerleft{
+	width: 100px;
+	display: block;
+	background: red;
+	padding-top: 40px;
+	color: 'white';
+}
+
+.bannerright{
+	width: 100%;
+	position: relative;
+	top: -20px;
+	padding-right: 20px;
+	text-align: right;
+	float: right;
+}
+
+.part1{
+	margin: 0;
+	float: left;
+}
+
+.part2{
+	float: right;
+	margin-right: 280px;
+}
+
+}
+#part2_1, #part2_2{
+    text-decoration: underline;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 5px;
+}
+
+#part2_3{
+	font-style: italic;
+	font-size: 14px;
+}
+
+#part2_4{
+	font-size: 66px;
+	font-style: italic;
+	color: green;
+	line-height: 0;
+}
+
+#part2_5{
+	font-size: 36px;
+	color: orange;
+	line-height: 0;
+	display: block;
+	float: left;
+}
+
+#part2_6, #part2_7{
+    font-size: 18px;
+	color: orange;
+	line-height: 0;
+	padding-bottom: 0px;
+}
+.part3{
+	display: block;
+	width: 640px;
+}
+
+.part3_1{
+	display: block;
+	width: 200px;
+	float: left;
+}
+
+.part3_2{
+	display: inline-block;
+	width: 200px;
+	padding-left: 20px;
+}
+
+.part3_3{
+	display: inline-block;
+	width: 200px;
+}
+
+.part4{
+	display: block;
+	width: 500px;
+	float: left;
+}
+
+.part4_1{
+display: block;
+font-size: 48px;
+color: green;
+text-align: left;
+}
+
+.part4_2 span{
+font-size: 66px;
+float: left;
+padding: 0;
+}
+
+.part4_2 img{
+float:right;
+padding-right: 10px;
+padding-bottom: 20px;
+}
+
+.part5{
+display: block;
+width: 400px;
+}
+
