@@ -66,6 +66,8 @@ body{
 	border: none;
 }
 
+/***上半部***/
+
 .parttop{
 	position:relative;
 	margin: 30px 40px;
@@ -214,6 +216,8 @@ body{
 .percnet1{
 	color: #75b86b;
 }
+
+/***下半部***/
 
 .partbottom{
 	position:relative;
@@ -377,6 +381,8 @@ body{
 	font-size: 40px;
 	color: #d45d5c;
 }
+
+/***底部***/
 
 .part7{
     position:relative;
